@@ -9,16 +9,16 @@
         switch ($accion) 
             {
                 case 'sumar':
-                        echo "Has seleccionado la opcion". $accion;
-                        echo "Tu resultado es". $valor1 + $valor2;
+                        echo "Has seleccionado la opcion". $accion."<br>";
+                        echo "Tu resultado es ". $valor1 + $valor2;
                     break;
                 case 'restar':
-                        echo "Has seleccionado la opcion". $accion;
-                        echo "Tu resultado es". $valor1 - $valor2;
+                        echo "Has seleccionado la opcion". $accion."<br>";
+                        echo "Tu resultado es ". $valor1 - $valor2;
                     break;
-                case 'restar':
+                case 'multiplicar':
                         echo "Has seleccionado la opcion". $accion;
-                        echo "Tu resultado es". $valor1 * $valor2;
+                        echo "Tu resultado es ". $valor1 * $valor2."<br>";
                     break;
                 case 'dividir':
                    
