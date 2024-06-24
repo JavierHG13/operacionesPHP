@@ -1,8 +1,8 @@
 <?php 
     if($_SERVER["REQUEST_METHOD"]=="POST"){
 
-        $valor1 = !empty($_POST['val1']) ? $_POST['val1'] : "requerido"; 
-        $valor2 = !empty($_POST['val2']) ? $_POST['val2'] : "requerido";
+        $valor1 = !empty($_POST['val1']) ? $_POST['val1'] : "0"; 
+        $valor2 = !empty($_POST['val2']) ? $_POST['val2'] : "0";
         $accion = isset($_POST['accion']) ? $_POST['accion'] : '';
 
         function sumar($a, $b) {
