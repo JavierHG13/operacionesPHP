@@ -13,11 +13,12 @@
                         echo "Tu resultado es". $valor1 + $valor2;
                     break;
                 case 'restar':
-                 
-
+                        echo "Has seleccionado la opcion". $accion;
+                        echo "Tu resultado es". $valor1 - $valor2;
                     break;
                 case 'restar':
-                 
+                        echo "Has seleccionado la opcion". $accion;
+                        echo "Tu resultado es". $valor1 * $valor2;
                     break;
                 case 'dividir':
                    
